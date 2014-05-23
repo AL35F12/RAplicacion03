@@ -13,5 +13,11 @@
 	
 	$('#B_Rex').tap(function (e) {
  	 $.mobile.navigate( "#Rex" );
+	 });
+	 $('#p_prehistoria').tap(function (e) {
+ 	 $.mobile.navigate( "#prehistoria" );
 	});
+	$('#A_acercade').tap(function (e) {
+ 	 $.mobile.navigate( "#acercade" );
+	 });
 });//ready
